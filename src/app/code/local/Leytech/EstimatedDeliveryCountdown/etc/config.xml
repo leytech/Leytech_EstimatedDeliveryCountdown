@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @package    Leytech_EstimatedDeliveryCountdown
+* @author     Chris Nolan (chris@leytech.co.uk)
+* @copyright  Copyright (c) 2017 Chris Nolan
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<config>
+    <modules>
+        <Leytech_EstimatedDeliveryCountdown>
+            <version>0.1.0</version>
+        </Leytech_EstimatedDeliveryCountdown>
+    </modules>
+    <global>
+        <models>
+            <leytech_estimated_delivery_countdown>
+                <class>Leytech_EstimatedDeliveryCountdown_Model</class>
+            </leytech_estimated_delivery_countdown>
+        </models>
+        <helpers>
+            <leytech_estimated_delivery_countdown>
+                <class>Leytech_EstimatedDeliveryCountdown_Helper</class>
+            </leytech_estimated_delivery_countdown>
+        </helpers>
+        <blocks>
+            <leytech_estimated_delivery_countdown>
+                <class>Leytech_EstimatedDeliveryCountdown_Block</class>
+            </leytech_estimated_delivery_countdown>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <leytech_estimated_delivery_countdown>
+                    <file>leytech/estimated_delivery_countdown.xml</file>
+                </leytech_estimated_delivery_countdown>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <meanbee_estimateddelivery>
+            <leytech_countdown>
+                <enabled>0</enabled>
+                <delivery_method></delivery_method>
+                <show_seconds>0</show_seconds>
+            </leytech_countdown>
+        </meanbee_estimateddelivery>
+    </default>
+</config>

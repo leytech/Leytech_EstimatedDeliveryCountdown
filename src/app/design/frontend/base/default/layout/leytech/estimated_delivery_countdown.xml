@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @package    Leytech_EstimatedDeliveryCountdown
+* @author     Chris Nolan (chris@leytech.co.uk)
+* @copyright  Copyright (c) 2017 Chris Nolan
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<layout version="0.1.0">
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addItem" ifconfig="meanbee_estimateddelivery/leytech_countdown/enabled">
+                <type>skin_css</type>
+                <file>leytech/estimated_delivery_countdown/css/style.css</file>
+            </action>
+            <action method="addItem" ifconfig="meanbee_estimateddelivery/leytech_countdown/enabled">
+                <type>skin_js</type>
+                <file>leytech/estimated_delivery_countdown/js/jquery.countdown.min.js</file>
+            </action>
+        </reference>
+        <reference name="product.info">
+            <block type="core/template" name="leytech_countdown" as="leytech_countdown" template="leytech/estimated_delivery_countdown/countdown.phtml" />
+        </reference>
+    </catalog_product_view>
+</layout>
