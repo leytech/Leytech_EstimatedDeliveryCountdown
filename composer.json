@@ -1,7 +1,7 @@
 {
   "name": "leytech/leytech_estimated_delivery_countdown",
   "type": "magento-module",
-  "description": "Module to to create a delivery countdown timer on the product page.",
+  "description": "Module to to display a delivery countdown timer on the product page.",
   "homepage": "https://github.com/leytech/Leytech_EstimatedDeliveryCountdown",
   "require": {
     "php": ">=5.4.0",
