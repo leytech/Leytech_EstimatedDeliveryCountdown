@@ -1,0 +1,5 @@
+src/app/code/community/Leytech/EstimatedDeliveryCountdown                                app/code/community/Leytech/EstimatedDeliveryCountdown
+src/app/design/frontend/base/default/layout/leytech/estimated_delivery_countdown.xml     app/design/frontend/base/default/layout/leytech/estimated_delivery_countdown.xml
+src/app/design/frontend/base/default/template/leytech/estimated_delivery_countdown       app/design/frontend/base/default/template/leytech/product_description
+src/app/etc/modules/Leytech_EstimatedDeliveryCountdown.xml                               app/etc/modules/Leytech_EstimatedDeliveryCountdown.xml
+src/skin/frontend/base/default/leytech/estimated_delivery_countdown                      skin/frontend/base/default/leytech/estimated_delivery_countdown
