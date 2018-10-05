@@ -8,9 +8,9 @@
 
 class Leytech_EstimatedDeliveryCountdown_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    const XML_PATH_ENABLED = 'meanbee_estimateddelivery/leytech_countdown/enabled';
-    const XML_PATH_DELIVERY_METHOD = 'meanbee_estimateddelivery/leytech_countdown/delivery_method';
-    const XML_PATH_SHOW_SECONDS = 'meanbee_estimateddelivery/leytech_countdown/show_seconds';
+    const XML_PATH_ENABLED = 'leytech_estimated_delivery_countdown/settings/enabled';
+    const XML_PATH_DELIVERY_METHOD = 'leytech_estimated_delivery_countdown/settings/delivery_method';
+    const XML_PATH_SHOW_SECONDS = 'leytech_estimated_delivery_countdown/settings/show_seconds';
 
     /**
      * Get the delivery method to use for the countdown
